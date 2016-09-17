@@ -55,4 +55,4 @@ US_states =
 
 US_states.each {|key,value| puts value if value[-1]== "T" || value[-1] == "N"}
 
-puts US_states.sort {|key,value| key <=> value}
+puts US_states.sort {|key,value| value <=> key}
